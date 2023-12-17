@@ -1,16 +1,8 @@
 # flutter3_example
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter関連のインストールが一切されていない状態のPCにfvmを使用したFlutter環境を構築したときに動作確認用に作成したFlutterプロジェクトです
+- 開発はVSCodeで行うためAndroidStudioについてインストールせずに[sdkmanager](https://developer.android.com/studio/command-line/sdkmanager?hl=ja)を使用したコマンドライン操作からのAndroidSDKのインストールを実施しています
+- Javaについてこのプロジェクトを動かすのに8から21に更新しています
+  - FlutterプロジェクトのGradleとJava21が対応していなかったため、`android/gradle/wrapper/gradle-wrapper.properties`のみプロジェクト作成時の状態から書き換えています
+- Qiitaに以下の記事として作業内容をまとめています
+  - [WindowsPCにfvmを使用したFlutter開発環境を構築し、実機デバッグまで持っていく備忘録](https://qiita.com/imo_tikuwa/items/b46bc571e6e913115f04)
